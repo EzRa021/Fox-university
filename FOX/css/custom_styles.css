@@ -1,0 +1,233 @@
+/* DEFAULT STYLES BEGINS HERE */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-color {
+    color: #fd5000;
+}
+
+.primary-bg {
+    background-color: #fd5000;
+}
+
+.secondary-color {
+    color: #0d1128;
+}
+
+.secondary-bg {
+    background-color: #0d1128;
+}
+
+/* DEFAULT STYLES ENDS HERE */
+
+/* HEADER STYLES BEGINS HERE */
+
+.header-top-logo {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.header-bottom-logo {
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: -80px;
+}
+
+.top-apply-btn {
+    background-color: #fd5000;
+    color: white;
+    padding: 10px 20px;
+}
+
+.top-apply-btn:hover {
+    background-color: white;
+    color:  #fd5000;
+    border: 1px solid #fd5000;
+    text-decoration: none;
+}
+
+.top-search {
+    border-radius: 30px;
+    padding: 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(189, 174, 174);
+}
+
+.top-search::placeholder {
+    color: white;
+}
+
+.top-search:focus{
+    background-color: transparent;
+    border: 1px solid rgb(189, 174, 174);
+    border: 1px solid white;
+    box-shadow: none;
+}
+
+/* HEADER STYLES ENDS HERE */
+
+/* WHAT WE OFFER STYLES BEGINS HERE */
+
+.what-we-offer-icon {
+    background-color: #fd5000;
+    color: white;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+/* WHAT WE OFFER STYLES ENDS HERE */
+
+/* ABOUT US STYLES BEGINS HERE */
+
+.about-us {
+    background: url('../images/bg_3.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+    padding: 150px 0;
+}
+
+.about-us::before{
+    background-color: #fd500070;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.about-us-icon {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    background: white;
+    color: #fd5000;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+/* ABOUT US STYLES ENDS HERE */
+
+
+/* OUR COURSES STYLES BEGINS HERE */
+
+.courses-apply-btn {
+    background-color: #fd5000;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+.courses-apply-btn:hover {
+    background-color: white;
+    color: #fd5000;
+    border: 1px solid #fd5000;
+    text-decoration: none;
+}
+
+/* OUR COURSES STYLES ENDS HERE */
+
+
+/* REQUEST A QUOTE STYLES BEGINS HERE */
+
+.request-quote {
+    background: url('../images/bg_5.jpg');
+    height: 80vh;
+    position: relative;
+    padding: 100px 150px;
+}
+
+.request-quote::before {
+    background-color: #fd500070;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+.request-quote-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    padding: 30px 0;
+    color: white;
+}
+
+.request-quote-input::placeholder{
+    color: white;
+}
+
+.request-quote-input:focus {
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    padding: 30px 0;
+    box-shadow: none;
+}
+
+.request-quote-btn {
+    background-color: #fd5000;
+   padding: 20px 0;
+   width: 100%;
+   border-radius: 40px;
+   border: none;
+   color: white;
+   transition: all ease 1s;
+}
+
+.request-btn-div {
+    margin-top: 47px;
+}
+
+.request-quote-btn:hover {
+    background-color: transparent;
+   border: 1px solid #fd5000;
+   color: #fd5000;
+   transition: all ease 1s;
+}
+/* REQUEST A QUOTE STYLES ENDS HERE */
+
+
+/* RECENT BLOG STYLES BEGINS HERE */
+
+.recent-blog {
+    padding-bottom: 200px;
+}
+.recent-blog-image {
+    position: relative;
+}
+
+.recent-blog-image::before {
+    position: absolute;
+    content: "";
+    top: 60%;
+    bottom: 0;
+    right: 85%;
+    left: 0;
+    background-color: #6610f2;
+}
+
+.blog-image-text {
+    color: white;
+    position: absolute;
+    top: 27%;
+    left: 3%;
+}
+
+/* RECENT BLOG STYLES ENDS HERE */

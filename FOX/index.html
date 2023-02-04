@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="css/fontawesome-free/css/all.css">
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/custom_styles.css">
+
+    <style>
+        body{font-family: "Open Sans", sans-serif;margin-top:200px}h2{color: #333;text-align: center;text-transform: uppercase;font-family: "Roboto", sans-serif;font-weight: bold;position: relative;margin: 25px 0 50px}h2::after{content: "";width: 100px;position: absolute;margin: 0 auto;height: 3px;background: #ffdc12;left: 0;right: 0;bottom: -10px}.carousel{width: 650px;margin: 0 auto;padding-bottom: 50px}.carousel .item{color: #999;font-size: 14px;text-align: center;overflow: hidden;min-height: 340px}.carousel .item a{color: #eb7245}.carousel .img-box{width: 145px;height: 145px;margin: 0 auto;border-radius: 50%}.carousel .img-box img{width: 100%;height: 100%;display: block;border-radius: 50%}.carousel .testimonial{padding: 30px 0 10px}.testimonial{color: #000000;font:Times Roman}.carousel .overview{text-align: center;padding-bottom: 5px}.carousel .overview b{color: #333;font-size: 15px;text-transform: uppercase;display: block;padding-bottom: 5px}.carousel .star-rating i{font-size: 18px;color: #ffdc12}.carousel .carousel-control{width: 30px;height: 30px;border-radius: 50%;background: #999;text-shadow: none;top: 4px}.carousel-control i{font-size: 20px;margin-right: 2px}.carousel-control.left{left: auto;right: 40px}.carousel-control.right i{margin-right: -2px}.carousel .carousel-indicators{bottom: 15px}.carousel-indicators li, .carousel-indicators li.active{width: 11px;height: 11px;margin: 1px 5px;border-radius: 50%}.carousel-indicators li{background: #e2e2e2;border-color: transparent}.carousel-indicators li.active{border: none;background: #888;}#myCarousel {margin-top: 150px}
+    </style>
+</head>
+<body>
+    
+    <!-- HEADER SECTION BEGINS HERE -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-4">
+                <h1 class="text-uppercase header-top-logo">fox.</h1>
+                <p class="text-uppercase header-bottom-logo mt-n3">university</p>
+            </div>
+            <div class="col-3">
+                <div class="media">
+                    <i class="fas fa-paper-plane align-self-center mr-3 primary-color"></i>
+                    <div class="media-body">
+                      <h5 class="mt-2 font-weight-bold">Email</h5>
+                      <p class="mt-n2">
+                          <a class="text-decoration-none text-dark" href="mailto: emmharr001@gmail.com">emmharr001@gmail.com</a>
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="media">
+                    <i class="fas fa-phone-alt align-self-center mr-3 primary-color"></i>
+                    <div class="media-body">
+                      <h5 class="mt-2 font-weight-bold">Call:</h5>
+                      <p class="mt-n2">
+                          <a class="text-decoration-none text-dark" href="tel: 090111962626">Call Us: 090111962626</a>
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <a class="float-right mt-2 top-apply-btn" href="">Apply Now</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light secondary-bg py-3">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link text-white mr-3" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white mr-3" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mr-3" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mr-3" href="#">Staff</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mr-3" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input style="position: relative;" class="form-control mr-sm-2 top-search" type="search" placeholder="Search" aria-label="Search">
+                        
+                        <i style="position: absolute; left:
+                        95%" class="fas fa-search text-white"></i>
+                      </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER SECTION ENDS HERE -->
+
+    <!-- CAROUSEL SLIDER SECTION BEGINS HERE -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/bg_1_new_cut.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/bg_2_new_cut.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+    </div>
+    <!-- CAROUSEL SLIDER SECTION ENDS HERE -->
+
+
+    <!-- WHAT WE DO SECTION STARTS HERE -->
+    <div class="card-group">
+        <div class="card primary-bg text-white py-5 px-3">
+          <i class="fas fa-chalkboard-teacher card-img-top fa-3x text-center"></i>
+          <div class="card-body">
+            <h4 class="card-title text-center my-3">Certified Teachers</h4>
+            <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            
+          </div>
+        </div>
+        <div class="card secondary-bg text-white py-5 px-3">
+            <i class="fas fa-book-reader card-img-top fa-3x text-center"></i>
+            <div class="card-body">
+              <h4 class="card-title text-center my-3">Special Education</h4>
+              <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+        </div>
+        <div class="card primary-bg text-white py-5 px-3">
+        <i class="fas fa-book card-img-top fa-3x text-center"></i>
+        <div class="card-body">
+            <h4 class="card-title text-center my-3">Book & Library</h4>
+            <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            
+        </div>
+        </div>
+        <div class="card secondary-bg text-white py-5 px-3">
+        <i class="fas fa-running card-img-top fa-3x text-center"></i>
+        <div class="card-body">
+            <h4 class="card-title text-center my-3">Sports Clubs</h4>
+            <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            
+        </div>
+        </div>
+    </div>
+    <!-- WHAT WE DO SECTION ENDS HERE -->
+
+    <!-- WHAT WE OFFER SECTION BEGINS HERE -->
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="mt-5 mb-4">What We Offer</h1>
+                        <p class="text-justify mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam enim nostrum id amet aliquam officia, quam earum libero! Consequuntur omnis soluta nesciunt, minus quo deserunt impedit aliquam. Delectus, asperiores odit?</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <div class="media">
+                            <i class="fas fa-shield-alt align-self-top mr-3 primary-color what-we-offer-icon"></i>
+                            <div class="media-body">
+                              <h5 class="mt-2 font-weight-bold">Safety First</h5>
+                              <p class="">
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="media">
+                            <i class="fas fa-paper-plane align-self-top mr-3 primary-color what-we-offer-icon"></i>
+                            <div class="media-body">
+                              <h5 class="mt-2 font-weight-bold">Regular Classes</h5>
+                              <p class="">
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <div class="media">
+                            <i class="fas fa-paper-plane align-self-top mr-3 primary-color what-we-offer-icon"></i>
+                            <div class="media-body">
+                              <h5 class="mt-2 font-weight-bold">Certified Teachers</h5>
+                              <p class="">
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="media">
+                            <i class="fas fa-paper-plane align-self-top mr-3 primary-color what-we-offer-icon"></i>
+                            <div class="media-body">
+                              <h5 class="mt-2 font-weight-bold">Sufficient Classrooms</h5>
+                              <p class="">
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="media">
+                            <i class="fas fa-paper-plane align-self-top mr-3 primary-color what-we-offer-icon"></i>
+                            <div class="media-body">
+                              <h5 class="mt-2 font-weight-bold">Creative Lessons</h5>
+                              <p class="">
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="media">
+                            <i class="fas fa-paper-plane align-self-top mr-3 primary-color what-we-offer-icon"></i>
+                            <div class="media-body">
+                              <h5 class="mt-2 font-weight-bold">Sport Facilities</h5>
+                              <p class="">
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-5">
+                <img class="img-fluid" src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- WHAT WE OFFER SECTION ENDS HERE -->
+
+    <!-- ABOUT US SECTION BEGINS HERE -->
+
+    <div class="container-fluid about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img class="img-fluid" src="images/about-2.jpg" alt="">
+                    <i class="fas fa-play about-us-icon"></i>
+                </div>
+                <div class="col-6 px-5">
+                    <h1 class="mb-4 font-weight-bold">Fox University</h1>
+                    <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur omnis aliquam illum debitis impedit officia eius neque architecto quas ullam sed pariatur repudiandae, possimus dolore molestias. Maiores, molestias. Architecto, alias.</p>
+                    <p class="text-justify">Quasi, veniam minus libero placeat optio fugit obcaecati magnam labore sapiente voluptas perspiciatis cupiditate culpa quibusdam laboriosam ratione iure accusamus, nisi qui? Et incidunt optio necessitatibus nobis? Veritatis, qui corrupti!</p>
+                </div>
+            </div>
+            <div class="row mt-5 pt-5">
+                <div class="col-3">
+                    <h1 class="text-center font-weight-bold">18</h1>
+                    <p class="text-center">Certified Teachers</p>
+                </div>
+                <div class="col-3">
+                    <h1 class="text-center font-weight-bold">401</h1>
+                    <p class="text-center">Students</p>
+                </div>
+                <div class="col-3">
+                    <h1 class="text-center font-weight-bold">30</h1>
+                    <p class="text-center">Courses</p>
+                </div>
+                <div class="col-3">
+                    <h1 class="text-center font-weight-bold">50</h1>
+                    <p class="text-center">Awards Won</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT US SECTION ENDS HERE -->
+
+    <!-- OUR COURSES SECTION BEGINS HERE -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-5">
+            <div class="col-8">
+                <h1 class="text-center mt-5 mb-4">Our Courses</h1>
+                <p class="text-justify mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dolores adipisci minus quidem iste perferendis modi reiciendis officiis vero! Animi rem a ipsam illum aliquid repellendus harum pariatur, quos consequuntur?</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card-deck">
+                    <div class="card border border-0">
+                      <img height="250" src="images/course-1.jpg" class="card-img-top" alt="...">
+                      <div class="course-icons d-flex justify-content-between px-3 py-2">
+                        <small><i class="fas fa-user mr-2 primary-color"></i><strong>MR. KHAN</strong></small>
+                        <small><i class="fas fa-chair mr-2 primary-color"></i><strong>10 SEATS</strong></small>
+                        <small><i class="fas fa-calendar-alt mr-2 primary-color"></i><strong>4 YEARS</strong></small>
+                      </div>
+                      <div class="card-body">
+                        <h4 class="card-title mb-4">Electric Engineering</h4>
+                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text mt-5"><a class="courses-apply-btn" href="">Apply Now</a></p>
+                      </div>
+                    </div>
+                    <div class="card border border-0">
+                        <img height="250" src="images/course-2.jpg" class="card-img-top" alt="...">
+                        <div class="course-icons d-flex justify-content-between px-3 py-2">
+                          <small><i class="fas fa-user mr-2 primary-color"></i><strong>MR. KHAN</strong></small>
+                          <small><i class="fas fa-chair mr-2 primary-color"></i><strong>10 SEATS</strong></small>
+                          <small><i class="fas fa-calendar-alt mr-2 primary-color"></i><strong>4 YEARS</strong></small>
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title mb-4">Electric Engineering</h4>
+                          <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text mt-5"><a class="courses-apply-btn" href="">Apply Now</a></p>
+                        </div>
+                    </div>
+                    <div class="card border border-0">
+                        <img height="250" src="images/course-3.jpg" class="card-img-top" alt="...">
+                        <div class="course-icons d-flex justify-content-between px-3 py-2">
+                          <small><i class="fas fa-user mr-2 primary-color"></i><strong>MR. KHAN</strong></small>
+                          <small><i class="fas fa-chair mr-2 primary-color"></i><strong>10 SEATS</strong></small>
+                          <small><i class="fas fa-calendar-alt mr-2 primary-color"></i><strong>4 YEARS</strong></small>
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title mb-4">Electric Engineering</h4>
+                          <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text mt-5"><a class="courses-apply-btn" href="">Apply Now</a></p>
+                        </div>
+                    </div>
+                    <div class="card border border-0">
+                        <img height="250" src="images/course-4.jpg" class="card-img-top" alt="...">
+                        <div class="course-icons d-flex justify-content-between px-3 py-2">
+                          <small><i class="fas fa-user mr-2 primary-color"></i><strong>MR. KHAN</strong></small>
+                          <small><i class="fas fa-chair mr-2 primary-color"></i><strong>10 SEATS</strong></small>
+                          <small><i class="fas fa-calendar-alt mr-2 primary-color"></i><strong>4 YEARS</strong></small>
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title mb-4">Electric Engineering</h4>
+                          <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text mt-5"><a class="courses-apply-btn" href="">Apply Now</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OUR COURSES SECTION ENDS HERE -->
+
+    <!-- CERTIFIED TEACHERS BEGINS HERE -->
+    <div class="container-fluid bg-light">
+        <div class="row justify-content-center mt-5">
+            <div class="col-8">
+                <h1 class="text-center mt-5 mb-4">Certified Teachers</h1>
+                <p class="text-justify mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dolores adipisci minus quidem iste perferendis modi reiciendis officiis vero! Animi rem a ipsam illum aliquid repellendus harum pariatur, quos consequuntur?</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card-deck">
+                    <div class="card border border-0">
+                      <img src="images/teacher-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h4 class="card-title text-center">Bianca Wilson</h4>
+                        <h6 class="text-center text-uppercase mt-n3 primary-color mb-4"><small><strong>teacher</strong></small></h6>
+                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+
+                    <div class="card border border-0">
+                        <img src="images/teacher-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h4 class="card-title text-center">Bianca Wilson</h4>
+                          <h6 class="text-center text-uppercase mt-n3 primary-color mb-4"><small><strong>teacher</strong></small></h6>
+                          <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+
+                      <div class="card border border-0">
+                        <img src="images/teacher-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h4 class="card-title text-center">Bianca Wilson</h4>
+                          <h6 class="text-center text-uppercase mt-n3 primary-color mb-4"><small><strong>teacher</strong></small></h6>
+                          <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+
+                      <div class="card border border-0">
+                        <img src="images/teacher-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h4 class="card-title text-center">Bianca Wilson</h4>
+                          <h6 class="text-center text-uppercase mt-n3 primary-color mb-4"><small><strong>teacher</strong></small></h6>
+                          <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CERTIFIED TEACHERS ENDS HERE -->
+
+    <!-- REQUEST A QUOTE SECTION BEGINS HERE -->
+
+    <div class="request-quote container-fluid text-white">
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6">
+                <h1 class="mb-5 font-weight-bold">Request A Quote</h1>
+                <p class="text-justify mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vero nisi sapiente deserunt ex inventore expedita quaerat? Placeat ipsam amet odit fugiat labore quos exercitationem dolore accusamus quis? Facere, eaque.</p>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" placeholder="First Name" class="form-control request-quote-input">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" placeholder="Last Name" class="form-control request-quote-input">
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <select class="form-control request-quote-input text-white">
+                            <option selected value="">~Select A Course~</option>
+                            <option value="">Arts</option>
+                            <option value="">Commercial</option>
+                            <option value="">Science</option>
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" placeholder="Phone" class="form-control request-quote-input">
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <textarea placeholder="Enter a Message" class="form-control request-quote-input"></textarea>
+                    </div>
+                    <div class="col-6">
+                        <div class="request-btn-div">
+                            <button type="submit" placeholder="Last Name" class="request-quote-btn">Request A Quote</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- REQUEST A QUOTE SECTION ENDS HERE -->
+
+    <!-- RECENT BLOG SECTION BEGINS HERE -->
+
+    <div class="container-fluid bg-light recent-blog">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <h1 class="text-center mt-5 mb-4">Recent Blog</h1>
+                    <p class="text-justify mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dolores adipisci minus quidem iste perferendis modi reiciendis officiis vero! Animi rem a ipsam illum aliquid repellendus harum pariatur, quos consequuntur?</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="card-deck">
+                        <div class="card border border-0 pb-5">
+                          <div class="recent-blog-image">
+                            <img src="images/image_1.jpg" class="card-img-top" alt="...">
+                          </div>
+                          <div class="blog-image-text">
+                            <h5 class="ml-1">26</h5>
+                            <h6><small>June</small></h6>
+                            <h6><small>2019</small></h6>
+                          </div>
+                          <div class="card-body">
+                            <h4 class="card-title mb-4">Skills To Develop Your Child's Memory</h4>
+                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text mt-5">
+                                <a class="courses-apply-btn" href="">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+
+                                <span class="float-right"><span class="primary-color">Admin</span> <i class="fas fa-comment-alt text-muted"></i> <span class="text-muted">3</span></span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="card border border-0 pb-5">
+                            <div class="recent-blog-image">
+                              <img src="images/image_2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="blog-image-text">
+                              <h5 class="ml-1">26</h5>
+                              <h6><small>June</small></h6>
+                              <h6><small>2019</small></h6>
+                            </div>
+                            <div class="card-body">
+                              <h4 class="card-title mb-4">Skills To Develop Your Child's Memory</h4>
+                              <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text mt-5">
+                                  <a class="courses-apply-btn" href="">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+  
+                                  <span class="float-right"><span class="primary-color">Admin</span> <i class="fas fa-comment-alt text-muted"></i> <span class="text-muted">3</span></span>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card border border-0 pb-5">
+                            <div class="recent-blog-image">
+                              <img src="images/image_3.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="blog-image-text">
+                              <h5 class="ml-1">26</h5>
+                              <h6><small>June</small></h6>
+                              <h6><small>2019</small></h6>
+                            </div>
+                            <div class="card-body">
+                              <h4 class="card-title mb-4">Skills To Develop Your Child's Memory</h4>
+                              <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text mt-5">
+                                  <a class="courses-apply-btn" href="">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+  
+                                  <span class="float-right"><span class="primary-color">Admin</span> <i class="fas fa-comment-alt text-muted"></i> <span class="text-muted">3</span></span>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RECENT BLOG SECTION ENDS HERE -->
+
+    <!-- TESTIMONIAL SECTION BEGINS HERE -->
+
+    <div class="testimonial mt-5 container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <h1 class="text-center my-5 font-weight-bold">Student Say About Us</h1>
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto cumque pariatur laudantium, iste consequatur deleniti modi! Repellendus ipsum, quam quia hic eum nihil ipsam asperiores incidunt eligendi corporis dolores?</p>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol> <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                            <div class="img-box"><img src="images/teacher-1.jpg" alt=""></div>
+                            <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                            <p class="overview"><b>Paula Wilsons</b>Seo Analyst </p>
+                            <div class="star-rating"> </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="img-box"><img src="images/teacher-2.jpg" alt=""></div>
+                            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                            <p class="overview"><b>Paula Wilson</b>Media Analyst </p>
+                            <div class="star-rating"> </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="img-box"><img src="images/teacher-3.jpg" alt=""></div>
+                            <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
+                            <p class="overview"><b>Antonio Moreno</b>Web Developer</p>
+                            <div class="star-rating"> </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="img-box"><img src="images/teacher-4.jpg" alt=""></div>
+                            <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
+                            <p class="overview"><b>Antonio Moreno</b>Web Developer</p>
+                            <div class="star-rating"> </div>
+                        </div>
+                    </div> <!-- Carousel controls --> <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev"> <i class="fa fa-angle-left"></i> </a> <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next"> <i class="fa fa-angle-right"></i> </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <!-- TESTIMONIAL SECTION ENDS HERE -->
+
+
+    
+
+
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
